@@ -1,0 +1,18 @@
+{
+    "name": "khasinski/php-solid-use-case",
+    "description": "SolidUseCase pattern in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Hasiński",
+            "email": "krzysztof.hasinski@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "KHasinski\\": "src/"
+      }
+    },
+    "require": {}
+}
