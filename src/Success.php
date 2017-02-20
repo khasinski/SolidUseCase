@@ -2,7 +2,7 @@
 
 namespace KHasinski;
 
-class Success extends Either {
+class Success implements Either {
     public function __construct($value = null)
     {
         $this->value = $value;

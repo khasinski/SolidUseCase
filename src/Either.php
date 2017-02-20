@@ -2,7 +2,7 @@
 
 namespace KHasinski;
 
-abstract class Either
+interface Either
 {
-    abstract public function match($success, $failures = []);
+    public function match($success, $failures = []);
 }
